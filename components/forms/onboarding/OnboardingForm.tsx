@@ -1,4 +1,4 @@
-"use Client";
+"use client";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { useState } from "react";
@@ -13,12 +13,14 @@ import JobSeekerForm from "./JobSeekerForm";
 type UserType = "company" | "jobSeeker" | null;
 
 export default function OnboardingForm() {
-  const [step, setSetp] = useState(1);
+  const [step, setStep] = useState(1);
   const [userType, setUserType] = useState<UserType>(null);
+
   const handleUserTypeSelect = (type: UserType) => {
     setUserType(type);
-    setSetp(2);
+    setStep(2);
   };
+
   const renderStep = () => {
     switch (step) {
       case 1:
