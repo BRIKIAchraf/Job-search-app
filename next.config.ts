@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // ✅ Fixes the "next export" removal issue
   images: {
     remotePatterns: [
       {
