@@ -180,7 +180,7 @@ vercel
 
 ## 🧩 Credits
 
-Built following the [Jan Marshal 2025 tutorial](https://github.com/BRIKIAchraf/Job-search-app.git)
+(https://github.com/BRIKIAchraf/Job-search-app.git)
 
 ### Technologies:
 
